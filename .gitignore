@@ -5,3 +5,4 @@ ipython_notebook_spark.out
 **/metastore_db/
 **/derby.log
 german.numer_scale
+test_colon_s3.csv
