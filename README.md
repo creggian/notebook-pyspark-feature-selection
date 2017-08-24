@@ -19,3 +19,10 @@ These notebooks have been built using Python v2.7.13, Apache Spark v2.2.0 and Ju
 ## Installation
 
     git clone git@github.com:creggian/notebook-pyspark-feature-selection.git
+
+## Notebooks
+
+Available notebooks
+
+- [nb-fs-topn.ipynb]: the notebook performs the distributed calculations of the Pearson correlation coefficients matrix between the class vector and the features. It then performs locally the selection of the _top n_ features according to the scores.
+- [nb-fs-mrmr.ipynb]: the notebook performs the distributed calculations of the mutual information matrix of class-feature pairs and feature-feature pairs. It then performs locally the mRMR algorithm.
