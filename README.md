@@ -15,3 +15,7 @@ These notebooks have been built using Python v2.7.13, Apache Spark v2.2.0 and Ju
     export PYSPARK_PYTHON="$ANACONDA2_HOME/bin/python"
     
     $SPARK_HOME/bin/pyspark --master local[4]
+
+## Installation
+
+    git clone git@github.com:creggian/notebook-pyspark-feature-selection.git
